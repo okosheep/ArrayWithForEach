@@ -10,10 +10,21 @@
 		4F1449DE1D7967FC00B6FD94 /* ArrayWithForEach.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F1449DD1D7967FC00B6FD94 /* ArrayWithForEach.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4F144A071D79687E00B6FD94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F144A031D79687D00B6FD94 /* Demo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F1449EE1D79687C00B6FD94;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4F1449DA1D7967FC00B6FD94 /* ArrayWithForEach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArrayWithForEach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1449DD1D7967FC00B6FD94 /* ArrayWithForEach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayWithForEach.h; sourceTree = "<group>"; };
 		4F1449DF1D7967FC00B6FD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F144A031D79687D00B6FD94 /* Demo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Demo.xcodeproj; path = Demo/Demo.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +41,7 @@
 		4F1449D01D7967FC00B6FD94 = {
 			isa = PBXGroup;
 			children = (
+				4F144A031D79687D00B6FD94 /* Demo.xcodeproj */,
 				4F1449DC1D7967FC00B6FD94 /* ArrayWithForEach */,
 				4F1449DB1D7967FC00B6FD94 /* Products */,
 			);
@@ -50,6 +62,14 @@
 				4F1449DF1D7967FC00B6FD94 /* Info.plist */,
 			);
 			path = ArrayWithForEach;
+			sourceTree = "<group>";
+		};
+		4F144A041D79687D00B6FD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F144A081D79687E00B6FD94 /* Demo.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,12 +128,28 @@
 			mainGroup = 4F1449D01D7967FC00B6FD94;
 			productRefGroup = 4F1449DB1D7967FC00B6FD94 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F144A041D79687D00B6FD94 /* Products */;
+					ProjectRef = 4F144A031D79687D00B6FD94 /* Demo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F1449D91D7967FC00B6FD94 /* ArrayWithForEach */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F144A081D79687E00B6FD94 /* Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Demo.app;
+			remoteRef = 4F144A071D79687E00B6FD94 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F1449D81D7967FC00B6FD94 /* Resources */ = {
