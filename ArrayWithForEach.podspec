@@ -72,7 +72,7 @@ Java 8 like ForEach implementation to Array.
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
-
+  s.platforms = { :ios => '8.0' }
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
