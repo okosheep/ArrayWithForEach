@@ -2,7 +2,7 @@
 //  ArrayWithForEach.h
 //  ArrayWithForEach
 //
-//  Created by 小越広臣 on 2016/09/02.
+//  Created by Hiroomi Okoshi on 2016/09/02.
 //  Copyright © 2016年 Hiroomi Okoshi. All rights reserved.
 //
 
